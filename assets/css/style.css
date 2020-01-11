@@ -5,4 +5,7 @@ nav {
     border-right: 0;
     border-bottom: 2;
     border-left: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
 }
