@@ -30,3 +30,12 @@ body {
     border-width: 3px;
     margin-top: 6px;
 }
+
+#Skills span { /*"Skills" title box*/
+    padding: 10px 20px 10px 20px; /*top left bottom right*/
+}
+
+#Skills hr { /*horizontal row line styling*/
+    border-width: 3px;
+    margin-top: 6px;
+}
