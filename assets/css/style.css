@@ -52,3 +52,12 @@ body {
 #Projects .card {
     border-top: 03px solid rgb(167, 167, 167);
 }
+
+#Contact span {
+    padding: 10px 20px 10px 20px; /*top left bottom right*/
+}
+
+#Contact hr {
+    border-width: 3px;
+    margin-top: 6px;
+}
