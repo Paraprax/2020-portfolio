@@ -40,11 +40,11 @@ body {
     margin-top: 6px;
 }
 
-#Experience span { /*"Experience" title box*/
+#Projects span { /*"Projects" title box*/
     padding: 10px 20px 10px 20px; /*top left bottom right*/
 }
 
-#Experience hr { /*horizontal row line styling*/
+#Projects hr { /*horizontal row line styling*/
     border-width: 3px;
     margin-top: 6px;
 }
