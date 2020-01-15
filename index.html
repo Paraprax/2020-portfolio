@@ -1,220 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- js libraries -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- my vanilla css sheet (call last!): -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- title -->
-    <title>Parker 2020</title>
-</head>
-<body data-spy="scroll" data-target=".navbar"> <!-- data-spy attribute to highlight navbar(target) links whose text matches id's of scrolled-over elements -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- js libraries -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- my vanilla css sheet (call last!): -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- title -->
+        <title>Parker 2020</title>
+    </head>
+    <body data-spy="scroll" data-target=".navbar"> <!-- data-spy attribute to highlight navbar(target) links whose text matches id's of scrolled-over elements -->
 
-    <!-- navbar -->
-    <div id="Header">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <!-- navbar -->
+        <div id="Header">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <div class="container">
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#Nabvar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a href="#" class="navbar-brand"><h3>Parker Johnston</h3></a>
+
+                    <!-- navbar links -->
+                    <div class="collapse navbar-collapse" id="Navbar">
+                        <ul class="navbar-nav ml-auto"> <!-- margin-left auto to align right -->
+                            <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                            <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
+                            <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div> <!-- end of links -->
+
+                </div>
+            </nav>
+        </div> <!-- end of navbar secion -->
+
+        <!-- showcase -->
+        <div id="background-img"></div>
+
+        <!-- About Me -->
+        <div id="About">
             <div class="container">
-
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#Nabvar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <a href="#" class="navbar-brand"><h3>Parker Johnston</h3></a>
-
-                <!-- navbar links -->
-                <div class="collapse navbar-collapse" id="Navbar">
-                    <ul class="navbar-nav ml-auto"> <!-- margin-left auto to align right -->
-                        <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
-                    </ul>
-                </div> <!-- end of links -->
-
-            </div>
-        </nav>
-    </div> <!-- end of navbar secion -->
-
-    <!-- showcase -->
-    <div id="background-img"></div>
-
-    <!-- About Me -->
-    <div id="About">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div id="AboutData">
-                       <div class="card bg-white"> 
-                           <div class="card-title my-5">
-                                <div class="media">
-                                    <!-- headshot -->
-                                    <img src="assets/images/parker-profile-pic.png" alt="" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
-                                    <div class="media-body">
-                                        <h3 class="display-4 ml-4">Parker Johnston</h3> 
-                                        <p class="text-muted ml-4">Full-Stack Web Developer</p>
-                                        <div class="container">
-                                            <table class="table table-responsive ml-4">
-                                                <tr>
-                                                    <td class="text-muted">Age</td>
-                                                    <td>:</td>
-                                                    <td>30</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-muted">Email</td>
-                                                    <td>:</td>
-                                                    <td>parkerjohnston28@gmail.com</td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-muted">Github</td>
-                                                    <td>:</td>
-                                                    <td>https://github.com/Paraprax</td>
-                                                </tr>
-                                            </table>
+                <div class="row">
+                    <div class="col">
+                        <div id="AboutData">
+                        <div class="card bg-white"> 
+                            <div class="card-title my-5">
+                                    <div class="media">
+                                        <!-- headshot -->
+                                        <img src="assets/images/parker-profile-pic.png" alt="" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                                        <div class="media-body">
+                                            <h3 class="display-4 ml-4">Parker Johnston</h3> 
+                                            <p class="text-muted ml-4">Full-Stack Web Developer</p>
+                                            <div class="container">
+                                                <table class="table table-responsive ml-4">
+                                                    <tr>
+                                                        <td class="text-muted">Age</td>
+                                                        <td>:</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-muted">Email</td>
+                                                        <td>:</td>
+                                                        <td>parkerjohnston28@gmail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-muted">Github</td>
+                                                        <td>:</td>
+                                                        <td>https://github.com/Paraprax</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
+                            </div>
+                            <!-- footer bar -->
+                            <div class="card-footer bg-success"> 
+                                <!-- fontawesome native icons, margin-leftright-3 -->
+                                    <a href="#"><i class="fa fa-facebook fa-2x mx-4"></i></a>
+                                    <a href="#"><i class="fa fa-twitter fa-2x mx-4"></i></a>
+                                    <a href="#"><i class="fa fa-youtube fa-2x mx-4"></i></a>
+                                    <a href="#"><i class="fa fa-github fa-2x mx-4"></i></a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Me bio paragraph -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <span class="bg-success text-white">About</span><hr class="bg-success">
+                        <p class="lead text-justify">Tired of Seattlites’ endless, ungrateful complaints about their families during the holiday season, Frasier begins jotting down a “naughty” list of particularly odious callers, co-workers and vaguely grouchy-looking passersby for whom a very personal Christmas Eve “house call” may be in the books. Martin laments the luxury condo lifestyle after becoming nostalgically fixated on the idea of tarring and re-shingling a roof. Roz tries to cheer up a recently-divorced Kenny by encouraging him to deliver gifts to underprivileged families.</p>
+                    </div>
+                </div>
+            </div> <!-- end of bio paragraph -->
+
+        </div> <!-- end of About section -->
+        
+        <!-- Skill secion -->
+        <div id="Skills" class="mt-5">
+            <div class="container">
+                <span class="bg-primary text-white">My Skiils</span><hr class="bg-primary">
+                <div class="row">
+                    <div class="col">
+                        <div class="card bg-white">
+                            <!-- progress bars -->
+                            <h3 class="ml-3 my-3">MongoDB</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar bg-success" style="width:1%">
+                                    1%
                                 </div>
-                           </div>
-                           <!-- footer bar -->
-                           <div class="card-footer bg-success"> 
-                               <!-- fontawesome native icons, margin-leftright-3 -->
-                                <a href="#"><i class="fa fa-facebook fa-2x mx-4"></i></a>
-                                <a href="#"><i class="fa fa-twitter fa-2x mx-4"></i></a>
-                                <a href="#"><i class="fa fa-youtube fa-2x mx-4"></i></a>
-                                <a href="#"><i class="fa fa-github fa-2x mx-4"></i></a>
-                           </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- About Me bio paragraph -->
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col">
-                    <span class="bg-success text-white">About</span><hr class="bg-success">
-                    <p class="lead text-justify">Tired of Seattlites’ endless, ungrateful complaints about their families during the holiday season, Frasier begins jotting down a “naughty” list of particularly odious callers, co-workers and vaguely grouchy-looking passersby for whom a very personal Christmas Eve “house call” may be in the books. Martin laments the luxury condo lifestyle after becoming nostalgically fixated on the idea of tarring and re-shingling a roof. Roz tries to cheer up a recently-divorced Kenny by encouraging him to deliver gifts to underprivileged families.</p>
-                </div>
-            </div>
-        </div> <!-- end of bio paragraph -->
-
-    </div> <!-- end of About section -->
-    
-    <!-- Skill secion -->
-    <div id="Skills" class="mt-5">
-        <div class="container">
-            <span class="bg-primary text-white">My Skiils</span><hr class="bg-primary">
-            <div class="row">
-                <div class="col">
-                    <div class="card bg-white">
-                        <!-- progress bars -->
-                        <h3 class="ml-3 my-3">MongoDB</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-success" style="width:1%">
-                                1%
                             </div>
-                        </div>
 
-                        <h3 class="ml-3 my-3">Express</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-primary" style="width:10%">
-                                10%
+                            <h3 class="ml-3 my-3">Express</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar bg-primary" style="width:10%">
+                                    10%
+                                </div>
                             </div>
-                        </div>
 
-                        <h3 class="ml-3 my-3">React</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-warning" style="width:1%">
-                                1%
+                            <h3 class="ml-3 my-3">React</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar bg-warning" style="width:1%">
+                                    1%
+                                </div>
                             </div>
-                        </div>
 
-                        <h3 class="ml-3 my-3">NodeJS</h3>
-                        <div class="progress mx-3">
-                            <div class="progress-bar bg-danger" style="width:20%">
-                                20%
+                            <h3 class="ml-3 my-3">NodeJS</h3>
+                            <div class="progress mx-3">
+                                <div class="progress-bar bg-danger" style="width:20%">
+                                    20%
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Experience section -->
-    <div id="Projects" class="mt-5">
-        <div class="container">
-            <span class="bg-warning text-white">Projects</span> <hr class="bg-warning">
-            <div class="row"> 
-                <div class="col-lg-6">
-                    <div class="card bg-white">
-                        <a href="https://stormy-ridge-88068.herokuapp.com/" class="m-auto py-3">
-                            <img src="assets/images/xenophile.jpg" alt="xenophile_thumbnail" width="200" height="80" class="img-fluid rounded-top rounded-bottom">
-                        </a>
-                        <h4 class="text-center text-primary">XENOPHILE</h4>
-                        <p class="lead text-justify p-3">A survey-based friend-finder web app designed to match the user with their new best alien buddy in the Mass Effect universe!</p>
+        <!-- Experience section -->
+        <div id="Projects" class="mt-5">
+            <div class="container">
+                <span class="bg-warning text-white">Projects</span> <hr class="bg-warning">
+                <div class="row"> 
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <a href="https://stormy-ridge-88068.herokuapp.com/" class="m-auto py-3">
+                                <img src="assets/images/xenophile.jpg" alt="xenophile_thumbnail" width="200" height="80" class="img-fluid rounded-top rounded-bottom">
+                            </a>
+                            <h4 class="text-center text-primary">XENOPHILE</h4>
+                            <p class="lead text-justify p-3">A survey-based friend-finder web app designed to match the user with their new best alien buddy in the Mass Effect universe!</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-6">
-                    <div class="card bg-white">
-                        <a href="https://github.com/NasimFekrat/smartypants-group-project-1" class="m-auto py-3">
-                            <img src="assets/images/coffeefetch.jpg" alt="fetch_thumbnail" width="200" height="80" class="img-fluid rounded-top rounded-bottom">
-                        </a>
-                        <h4 class="text-center text-primary">Fetch</h4>
-                        <p class="lead text-justify p-3">An web app for students and coworkers to auto-locate the nearest cafés and sign up with their peers to go on coffee runs</p>
+                    <div class="col-lg-6">
+                        <div class="card bg-white">
+                            <a href="https://github.com/NasimFekrat/smartypants-group-project-1" class="m-auto py-3">
+                                <img src="assets/images/coffeefetch.jpg" alt="fetch_thumbnail" width="200" height="80" class="img-fluid rounded-top rounded-bottom">
+                            </a>
+                            <h4 class="text-center text-primary">Fetch</h4>
+                            <p class="lead text-justify p-3">An web app for students and coworkers to auto-locate the nearest cafés and sign up with their peers to go on coffee runs</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Contact section -->
-    <div id="Contact" class="mt-5">
-        <div class="container">
-            <span class="bg-danger text-white">Contact Parker</span><hr class="bg-danger">
-            <div class="row">
-                <div class="col">
-                    <div class="card bg-white">
-                        <div class="card-header">
-                        <h4 class="my 4">Contact Me Here</h4>
-                            <div class="form-group">
-                                <input type="text" placeholder="Name" class="form-control py-2">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" placeholder="Email" class="form-control py-2">
-                            </div>
+        <!-- Contact section -->
+        <div id="Contact" class="mt-5">
+            <div class="container">
+                <span class="bg-danger text-white">Contact Parker</span><hr class="bg-danger">
+                <div class="row">
+                    <div class="col">
+                        <div class="card bg-white">
+                            <div class="card-header">
+                            <h4 class="my 4">Contact Me Here</h4>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Name" class="form-control py-2">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Email" class="form-control py-2">
+                                </div>
 
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Comments"></textarea>
-                            </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Comments"></textarea>
+                                </div>
 
-                            <div class="formgroup">
-                                <button class="btn btn-success text-white">Submit</button>
+                                <div class="formgroup">
+                                    <button class="btn btn-success text-white">Submit</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        <!-- footer -->
+        <div id="Footer">
+            <div class="container-fluid bg-dark">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <p class="text-white pt-3 text-center">Copyright Ⓒ 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-
-    <footer>
-        Copyright Ⓒ 2020
-    </footer>
-
-    
-</body>
+        
+    </body>
 </html>
